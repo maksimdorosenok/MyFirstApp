@@ -26,6 +26,31 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 999,
             shares = 25,
+            views = 5700,
+            video = null
+        ),
+        Post(
+            id = 2,
+            author = "Android Dev",
+            authorId = 3,
+            content = "Вышел новый релиз Android Studio! Теперь с поддержкой Gemini AI и улучшенным композером.",
+            published = "22 мая в 10:15",
+            likedByMe = false,
+            likes = 342,
+            shares = 89,
+            views = 2300,
+            video = "https://www.youtube.com/watch?v=WhWc3b3KhnY"  // пример видео
+        ),
+        // ... остальные посты
+    Post(
+            id = 1,
+            author = "Нетология. Университет интернет-профессий",
+            authorId = 2,
+            content = "Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению.",
+            published = "21 мая в 18:36",
+            likedByMe = false,
+            likes = 999,
+            shares = 25,
             views = 5700
         ),
         Post(
