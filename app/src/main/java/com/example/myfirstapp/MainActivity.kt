@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             // Если редактируем существующий пост
             if (editingPostId != 0L) {
                 // Получаем текущий пост из ViewModel, обновляем его контент и сохраняем
-                viewModel.saveEditedPost(editingPostId, text)
+           // !!!!    viewModel.saveEditedPost(editingPostId, text)
                 editingPostId = 0L
             } else {
                 // Создаем новый пост
