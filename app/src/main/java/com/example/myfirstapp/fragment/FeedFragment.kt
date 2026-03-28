@@ -1,6 +1,5 @@
 package com.example.myfirstapp.fragment
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,12 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.myfirstapp.R
-import com.example.myfirstapp.activity.EditPostContract
 import com.example.myfirstapp.adapter.OnPostInteractionListener
 import com.example.myfirstapp.adapter.PostsAdapter
 import com.example.myfirstapp.databinding.FragmentFeedBinding
 import com.example.myfirstapp.dto.Post
 import com.example.myfirstapp.viewmodel.PostViewModel
+import android.content.Intent
+import com.example.myfirstapp.activity.EditPostContract
 
 class FeedFragment  : Fragment() {
     private var _binding: FragmentFeedBinding? = null

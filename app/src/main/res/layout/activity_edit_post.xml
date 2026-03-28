@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="16dp"
-    tools:context="com.example.myfirstapp.activity.EditPostActivity">
+    tools:context=".activity.EditPostActivity">
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
