@@ -20,9 +20,11 @@
     <string name="cancel">Cancel</string>
     <string name="edit_post_edit_title">Redacte post</string>
     <string name="error_empty_content">Text can\'t be empty</string>
-    <string name="play_video">Play the мideo</string>
+    <string name="play_video">Play the video</string>
     <string name="open_external">Open in external source</string>
     <string name="error_no_video_app">No video viewing app found</string>
     <string name="error_cannot_open_video">Failed to open video</string>
     <string name="share_post_via">Share via</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_removed">Post removed</string>
 </resources>
